@@ -1,8 +1,10 @@
-default: local
+# Run local instnace w/o drafts.
+default:
+	hugo server
 
 # Run local instance w/ drafts
-.PHONY: local
-local:
+.PHONY: drafts
+drafts:
 	hugo server --buildDrafts
 
 # Upload static files to Cloud Files.
