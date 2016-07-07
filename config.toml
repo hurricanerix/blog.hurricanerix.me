@@ -1,3 +1,35 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://blog.hurricanerix.me/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "blog.hurricanerix.me"
+summerization = "html_firstparagraph"
+paginate = 9
+theme = "bleak"
+
+[permalinks]
+  post = "/post/:year/:month/:day/:filename"
+  project = "/project/:year/:month/:day/:slug"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+    # Warning Keys are case sensitives
+    Subtitle = "Thoughts of a software developer in Austin, TX"
+    description = "description."
+    cover = "/images/cover.jpg"
+
+    # Google analytics
+    gravatarHash = "c25aa5431f96fafd5676a0221c0891e5"
+    twitter = "hurricanerix"
+    github = "hurricanerix"
+    linkedin = "hurricanerix"
+
+[author]
+      FirstName = "Richard"
+      LastName = "Hawkins"
+      Gender = "male"
+      UserName = "hurricanerix"
+      Image = "//www.gravatar.com/avatar/c25aa5431f96fafd5676a0221c0891e5.png"
+      Bio = "bio"
+      Website = "http://blog.hurricanerix.me"
