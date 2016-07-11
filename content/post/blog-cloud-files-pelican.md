@@ -1,11 +1,11 @@
 +++
 date = "2015-07-18T22:09:00-05:00"
 draft = false
-title = "Setting up a blog with Pelecan & Rackspace Cloud Files"
+title = "Setting up a blog with Pelican & Rackspace Cloud Files"
 tags = [ "Blog", "Cloud Files", "Hugo" ]
 +++
 
-From time to time I have the desire to share my thoughts on a topic.  Having resisted Twitter for many years, in 2013, I finally caved in.  As much as I like Twitter, I find the 140 character limit very restrictive when attempting to write anything of significance.  Most times, I just get frustrated trying to re-phrase things to fit.  This leads to most tweets that actually make it being the result of my scorn.  Had I had more than 140 characters, I would have at least explained my issue rahther than "@CompanyX Wha wha wha[^fn-wha_footnote]".  Having intended to create a blog for a while now, and after looking over Pelican, I decided that this was the direction to go.
+From time to time I have the desire to share my thoughts on a topic.  Having resisted Twitter for many years, in 2013, I finally caved in.  As much as I like Twitter, I find the 140 character limit very restrictive when attempting to write anything of significance.  Most times, I just get frustrated trying to re-phrase things to fit.  This leads to most tweets that actually make it being the result of my scorn.  Had I had more than 140 characters, I would have at least explained my issue rather than "@CompanyX Wha wha wha[^fn-wha_footnote]".  Having intended to create a blog for a while now, and after looking over Pelican, I decided that this was the direction to go.
 
 Part I: Setup
 -------------
@@ -162,7 +162,7 @@ index.html
 tag/blog.html
 theme/images/icons/youtube.png
 feeds/all.atom.xml
-setting-up-a-blog-with-pelecan-rackspace-cloud-files.html
+setting-up-a-blog-with-pelican-rackspace-cloud-files.html
 theme/images/icons/google-plus.png
 theme/images/icons/linkedin.png
 theme/images/icons/google-groups.png
@@ -194,7 +194,7 @@ theme/images/icons/facebook.png
 theme/images/icons/twitter.png
 ```
 
-![Browser with the new blog loaded](/images/setting-up-a-blog-with-pelecan-rackspace-cloud-files_finished.png)
+![Browser with the new blog loaded](/images/setting-up-a-blog-with-pelican-rackspace-cloud-files_finished.png)
 
 [^fn-wha_footnote]: An attempt at a crying baby sound.
 
